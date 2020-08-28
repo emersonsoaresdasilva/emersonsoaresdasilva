@@ -1,0 +1,1 @@
+A,B = input().split();A = int(A);A1 = int(B);B = int(B);B1 = int(A);print('a:',A,'b:',B);print('a:',A1,'b:',B1)
