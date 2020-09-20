@@ -1,14 +1,15 @@
 # Emerson Soares ✔
+
 <strong>Estudante de Sistemas de Informação</strong>
 
 <p>
 <a href="https://www.linkedin.com/in/emersonsoaresdasilva" rel="nofollow">
- <img src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/16/Linkedin-icon.png"> emersonsoaresdasilva</a>
+<img src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/16/Linkedin-icon.png"> emersonsoaresdasilva</a>
 
 <a href="mailto:emersonsoares2001@gmail.com" rel="nofollow">
- <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/16/Gmail-icon.png"> emersonsoares2001@gmail.com</a>
+<img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/16/Gmail-icon.png"> emersonsoares2001@gmail.com</a>
 
-<a class="teste" href="https://www.impacta.edu.br/graduacoes/sistemas-de-informacao" rel="nofollow">
+<a href="https://www.impacta.edu.br/graduacoes/sistemas-de-informacao" rel="nofollow">
 <img src="https://i.imgur.com/6q6a7rZ.png"> Impacta Tecnologia</a>
 </p>
 
