@@ -1,5 +1,16 @@
 # Emerson Soares ✔
-Estudante de Sistemas de Informação | Impacta Tecnologia 🖥 | emersonsoares2001@gmail.com 📧
+<strong>Estudante de Sistemas de Informação</strong>
+
+<p>
+<a href="https://www.linkedin.com/in/emersonsoaresdasilva" rel="nofollow">
+ <img src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/16/Linkedin-icon.png"> emersonsoaresdasilva</a>
+
+<a href="mailto:emersonsoares2001@gmail.com" rel="nofollow">
+ <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/16/Gmail-icon.png"> emersonsoares2001@gmail.com</a>
+
+<a class="teste" href="https://www.impacta.edu.br/graduacoes/sistemas-de-informacao" rel="nofollow">
+<img src="https://i.imgur.com/6q6a7rZ.png"> Impacta Tecnologia</a>
+</p>
 
 Sou estudante, ainda não sou formado, mas sou fascinado em tecnologia.
 
@@ -13,7 +24,7 @@ Além disso, já prestei serviço voluntário pela Federação Paulista de Despo
 O comprometimento é uma das qualidades no qual me identifico muito.
 
 # Adquirindo conhecimento:
-* Linguagem de programação Python e SQL. 🆕
+* Linguagem de programação Python e SQL. 👨‍💻
 * AWS Cloud (AWS Academy Cloud Foundation). ☁
 
 # Cursos realizados:
