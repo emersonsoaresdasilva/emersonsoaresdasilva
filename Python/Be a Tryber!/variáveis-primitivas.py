@@ -1,7 +1,7 @@
 #-------------------------------------
 # CURSO BÁSICO DE PYTHON | AULA 01 |
 #   Variáveis Primitivas (Trybe)
-#------------------------------------
+#-------------------------------------
 
 nome = 'Emerson Soares da Silva'
 idade = 19
