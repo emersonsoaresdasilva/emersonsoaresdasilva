@@ -30,6 +30,10 @@
     </p>
 </details>
 
+<details>
+    <summary><b>Conheça um pouco sobre mim</b></summary>
+    <br/>
+ 
 “A tecnologia é somente uma ferramenta, no que se refere a motivar as pessoas e conseguir que trabalhem juntas, um professor é o recurso mais importante” Essas palavras definem minha trajetória profissional atualmente, onde atuo diretamente com a educação superior.
 
 Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>, onde alcançamos conhecimentos atuais, principalmente no que há de mais importante no âmbito profissional, a comunicação e expressão de ideias, soluções, habilidades e coerência naquilo que apresentamos.
