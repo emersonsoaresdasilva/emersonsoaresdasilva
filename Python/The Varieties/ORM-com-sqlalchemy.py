@@ -2,7 +2,7 @@
 Object-Relational Mapping (ORM) é uma técnica para aproximar o paradigma de
 programação orientada a objetos ao paradigma do banco de dados relacional.
 
-• Técnica muito empregada nos  últimos anos.
+• Técnicas muito empregadas nos  últimos anos.
 • Vantagens:
 - Permite abstrair o código de SQL;
 - Aproxima o paradigma de POO ao paradigma de banco de dados relacional;
