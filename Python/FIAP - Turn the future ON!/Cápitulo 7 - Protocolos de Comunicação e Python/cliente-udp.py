@@ -15,4 +15,4 @@ while saida != "X":
     dados, origem = obj_socket.recvfrom(65535)
     print(f"Resposta do Servidor: {dados.encode()}")
     saida = input("Digite <X> para sair: ").upper()
-obj_socket.close()git
+obj_socket.close()
