@@ -1,7 +1,7 @@
 import requests
 from flask import Flask
 
-# Brincando com python... :)
+# Brincando com python...
 
 # Usa a biblioteca requests para abrir uma conexao com o viacep.
 def search(cep):
@@ -27,10 +27,25 @@ def cep_to_logradouro(cep):
 # Gerar um objeto chamado app, uma burocracia que a gente faz sempre.
 app = Flask(__name__)
 
+@app.route("/")
+def index():
+    return '''
+        <div style="font-family:verdana">
+            <p>Caminhos</p>
+            <ul>
+                <li>/bairro/<strong>cep</strong></li>
+                <li>/logradouro/<strong>cep</strong></li>
+                <li>/atende/<strong>cep</strong></li>
+                <li>/bairros/adicionar/<strong>nome</strong></li>
+                <li>/bairros/deletar/<strong>nome</strong></li>
+            </ul>
+        </div>
+    ''' # Não faça isso, carregar html não é uma boa prática, crie um arquivo index.html > seu código.
+
 # --> --> --> --> --> --> --> --> --> --> -->
 #               • Bairro / Rua •
 #
-# O meu servidor tem uma URL bairro/cep
+# O meu servidor tem uma URL /bairro/<cep> ; /logradouro/<cep>
 # Eu (Browser) --> meu servidor --> viacep
 #
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
@@ -40,52 +55,73 @@ def bairro(cep):
     bairro = cep_to_bairro(cep)
     if bairro != ValueError:
         return {'bairro': bairro}
-    return {
-        'erro':     f'O CEP informado esta incorreto.',
-        'codigo':   f'{500}',
-        'cep':      f'{cep}'
-        }
+    return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}
 
 @app.route("/logradouro/<cep>")
 def logradouro(cep):
     logradouro = cep_to_logradouro(cep)
     if logradouro != ValueError:
         return {'logradouro': logradouro}
-    return {
-        'erro':     f'O CEP informado esta incorreto.',
-        'codigo':   f'{500}',
-        'cep':      f'{cep}'
-        }
-
-# --> --> --> --> --> --> --> --> --> --> -->
-#           • Ajustes pendentes •
-# <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
+    return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}      
 
 # --> --> --> --> --> --> --> --> --> --> -->
 #          • Área de atendimento •
 #
-# O meu servidor tem uma URL bairro/cep
+# O meu servidor tem uma URL /atende/<cep>
 # Eu (Browser) --> meu servidor --> viacep
 #
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
-bairros_atende = ["Barra Funda", "Lapa", "Parque Residencial da Lapa", "Vila Invernada"]
+atende_bairros = ["Barra Funda", "Lapa", "Bela Vista", "Bom Retiro"]
+
 @app.route("/atende/<cep>")
 def atende(cep):
     bairro = cep_to_bairro(cep)
-    return {"atende": bairro in bairros_atende, "status": "ok"}
+    logradouro = cep_to_logradouro(cep)
+    if bairro != ValueError:
+        if bairro in atende_bairros:
+            return {'logradouro': logradouro, 'atende': bairro, 'status': 'ok'}    
+        return {'logradouro': logradouro, 'atende': bairro, 'status': 'fora da area de atendimento'}  
+    return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}
+ 
+# --> --> --> --> --> --> --> --> --> --> -->
+#           • Ajustes pendentes •
+#                   #TODO
+# <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
-#adiciona um bairro, pra eu nao precisar ficar mexendo no codigo pra adicionar
-#bairros. Mas isso eu vou mostrar mais pra frente (se quiser brincar com isso
-# aprenda primeiro como funciona a biblioteca requests)
-@app.route("/bairros/<nome>", methods=["PUT"])
+# --> --> --> --> --> --> --> --> --> --> -->
+#      • Adicionar bairro de atendimento •
+#
+# O meu servidor tem uma URL /bairros/adicionar/<nome>
+# Eu (Browser) --> meu servidor --> viacep
+#
+# <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
+
+# Adiciona um bairro, para eu não precisar ficar mexendo no codigo pra adicionar bairros.
+@app.route("/bairros/adicionar/<nome>", methods=["GET"]) #TODO methods=["PUT"]
 def add_bairro(nome):
-    if nome not in bairros_atende:
-        bairros_atende.append(nome)
-        return {"bairro_adicionado": nome, "status": "ok"}
-    #TODO: adicionar tratamento de erro se o bairro já está na lista. Status code 400.
+    if nome not in atende_bairros:
+        atende_bairros.append(nome)
+        return {'bairro_adicionado': nome, 'status': 'ok'}
+    return {'erro': 'O bairro informado esta na lista.', 'codigo': f'{400}'}
 
-#TODO adicionar remoção de bairro
+# --> --> --> --> --> --> --> --> --> --> -->
+#      • Remover bairro de atendimento •
+#
+# O meu servidor tem uma URL /bairros/deletar/<nome>
+# Eu (Browser) --> meu servidor --> viacep
+#
+# <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
+# Remove um bairro, para eu não precisar ficar mexendo no codigo pra remover bairros.
+@app.route("/bairros/deletar/<nome>", methods=["GET"]) #TODO methods=["DELETE"]
+def delete_bairro(nome):
+    if nome in atende_bairros:
+        print(atende_bairros)
+        atende_bairros.remove(nome)
+        print(atende_bairros)
+        return {'bairro_removido': nome, 'status': 'ok'}
+    return {'erro': 'O bairro informado nao esta na lista.', 'codigo': f'{400}'}
+    
 if __name__ == '__main__':
     app.run(host = 'localhost', port = 5002, debug = True)
