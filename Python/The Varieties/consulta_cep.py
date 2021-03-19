@@ -86,7 +86,6 @@ def atende(cep):
  
 # --> --> --> --> --> --> --> --> --> --> -->
 #           • Ajustes pendentes •
-#                   #TODO
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
 # --> --> --> --> --> --> --> --> --> --> -->
@@ -98,7 +97,7 @@ def atende(cep):
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
 # Adiciona um bairro, para eu não precisar ficar mexendo no codigo pra adicionar bairros.
-@app.route("/bairros/adicionar/<nome>", methods=["GET"]) #TODO methods=["PUT"]
+@app.route("/bairros/adicionar/<nome>", methods=["GET"])
 def add_bairro(nome):
     if nome not in atende_bairros:
         atende_bairros.append(nome)
@@ -114,12 +113,10 @@ def add_bairro(nome):
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
 # Remove um bairro, para eu não precisar ficar mexendo no codigo pra remover bairros.
-@app.route("/bairros/deletar/<nome>", methods=["GET"]) #TODO methods=["DELETE"]
+@app.route("/bairros/deletar/<nome>", methods=["GET"])
 def delete_bairro(nome):
     if nome in atende_bairros:
-        print(atende_bairros)
         atende_bairros.remove(nome)
-        print(atende_bairros)
         return {'bairro_removido': nome, 'status': 'ok'}
     return {'erro': 'O bairro informado nao esta na lista.', 'codigo': f'{400}'}
     
