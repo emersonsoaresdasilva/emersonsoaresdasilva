@@ -83,10 +83,6 @@ def atende(cep):
             return {'logradouro': logradouro, 'atende': bairro, 'status': 'ok'}    
         return {'logradouro': logradouro, 'atende': bairro, 'status': 'fora da area de atendimento'}  
     return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}
- 
-# --> --> --> --> --> --> --> --> --> --> -->
-#           • Ajustes pendentes •
-# <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
 # --> --> --> --> --> --> --> --> --> --> -->
 #      • Adicionar bairro de atendimento •
