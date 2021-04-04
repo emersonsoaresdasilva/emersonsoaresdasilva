@@ -1,28 +1,23 @@
 import requests
-from flask import Flask
+from flask import Flask, jsonify
 
 # Brincando com python...
-
 # Usa a biblioteca requests para abrir uma conexao com o viacep.
 def search(cep):
     url = f"https://viacep.com.br/ws/{cep}/json/"
-    response = requests.get(url)
-    if response.status_code != 200:
-        return ValueError
-    dicionario_retornado = response.json()
-    return dicionario_retornado
+    if requests.get(url).status_code == 200:
+        return requests.get(url).json()
+    return ValueError
 
 def cep_to_bairro(cep):
-    dicionario_retornado = search(cep)
-    if dicionario_retornado != ValueError:       
-        return dicionario_retornado['bairro']
-    return dicionario_retornado
+    if search(cep) != ValueError:
+        return search(cep)['bairro']
+    return ValueError
 
 def cep_to_logradouro(cep):
-    dicionario_retornado = search(cep)
-    if dicionario_retornado != ValueError:       
-        return dicionario_retornado['logradouro']
-    return dicionario_retornado
+    if search(cep) != ValueError:
+        return search(cep)['logradouro']
+    return ValueError
 
 # Gerar um objeto chamado app, uma burocracia que a gente faz sempre.
 app = Flask(__name__)
@@ -31,7 +26,7 @@ app = Flask(__name__)
 def index():
     return '''
         <div style="font-family:verdana">
-            <p>Caminhos</p>
+            <p>Webservice gratuito para pesquisa de endereço <strong>via CEP.</strong></p>
             <ul>
                 <li>/bairro/<strong>cep</strong></li>
                 <li>/logradouro/<strong>cep</strong></li>
@@ -54,15 +49,15 @@ def index():
 def bairro(cep):
     bairro = cep_to_bairro(cep)
     if bairro != ValueError:
-        return {'bairro': bairro}
-    return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}
+        return jsonify({'bairro': bairro})
+    return jsonify({'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'})
 
 @app.route("/logradouro/<cep>")
 def logradouro(cep):
     logradouro = cep_to_logradouro(cep)
     if logradouro != ValueError:
-        return {'logradouro': logradouro}
-    return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}      
+        return jsonify({'logradouro': logradouro})
+    return jsonify({'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'})    
 
 # --> --> --> --> --> --> --> --> --> --> -->
 #          • Área de atendimento •
@@ -80,9 +75,9 @@ def atende(cep):
     logradouro = cep_to_logradouro(cep)
     if bairro != ValueError:
         if bairro in atende_bairros:
-            return {'logradouro': logradouro, 'atende': bairro, 'status': 'ok'}    
-        return {'logradouro': logradouro, 'atende': bairro, 'status': 'fora da area de atendimento'}  
-    return {'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'}
+            return jsonify({'logradouro': logradouro, 'atende': bairro, 'status': 'ok'})
+        return jsonify({'logradouro': logradouro, 'atende': bairro, 'status': 'Fora da area de atendimento'})
+    return jsonify({'erro': 'O CEP informado esta incorreto.', 'codigo': f'{500}'})
 
 # --> --> --> --> --> --> --> --> --> --> -->
 #      • Adicionar bairro de atendimento •
@@ -93,12 +88,12 @@ def atende(cep):
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
 # Adiciona um bairro, para eu não precisar ficar mexendo no codigo pra adicionar bairros.
-@app.route("/bairros/adicionar/<nome>", methods=["GET"])
+@app.route("/bairros/adicionar/<nome>")
 def add_bairro(nome):
     if nome not in atende_bairros:
         atende_bairros.append(nome)
-        return {'bairro_adicionado': nome, 'status': 'ok'}
-    return {'erro': 'O bairro informado esta na lista.', 'codigo': f'{400}'}
+        return jsonify({'bairro_adicionado': nome, 'status': 'ok'})
+    return jsonify({'erro': 'O bairro informado esta na lista.', 'codigo': f'{400}'})
 
 # --> --> --> --> --> --> --> --> --> --> -->
 #      • Remover bairro de atendimento •
@@ -109,12 +104,12 @@ def add_bairro(nome):
 # <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--
 
 # Remove um bairro, para eu não precisar ficar mexendo no codigo pra remover bairros.
-@app.route("/bairros/deletar/<nome>", methods=["GET"])
+@app.route("/bairros/deletar/<nome>")
 def delete_bairro(nome):
     if nome in atende_bairros:
         atende_bairros.remove(nome)
-        return {'bairro_removido': nome, 'status': 'ok'}
-    return {'erro': 'O bairro informado nao esta na lista.', 'codigo': f'{400}'}
-    
+        return jsonify({'bairro_removido': nome, 'status': 'ok'})
+    return jsonify({'erro': 'O bairro informado nao esta na lista.', 'codigo': f'{400}'})
+
 if __name__ == '__main__':
-    app.run(host = 'localhost', port = 5002, debug = True)
+    app.run(host='localhost', port=5002, debug=True)
