@@ -5,4 +5,4 @@ def pega_cidade(ip):
     cidade = requests.get(url).json()['city']
     return f'Cidade do IP é: {cidade}'
 
-# print(pega_cidade('182.21.6.20')) --> Digite seu ip.
+print(pega_cidade('142.36.75.39')) #--> Digite seu ip.
