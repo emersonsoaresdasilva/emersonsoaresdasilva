@@ -84,6 +84,7 @@ def insere_ordenado(lista, item):
             lista.insert(i, item)
             return True
     # Terminou de percorrer a lista:
+    # Todos os valores são menores, então insere no final da lista.
     lista.append(item)
 
     # if ordem_crescente(lista):
