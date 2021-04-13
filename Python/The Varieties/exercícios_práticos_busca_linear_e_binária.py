@@ -79,14 +79,21 @@ Você NÃO DEVE utilizar as funções sort, sorted, ou qualquer outra função
 pronta do python para ordenação.
 '''
 def insere_ordenado(lista, item):
-    if ordem_crescente(lista):
-        inicio, fim = 0, len(lista)-1
-        while inicio <= fim:
-            meio = (inicio + fim) // 2 # Pego o meio da lista.
-            if item < lista[meio]:
-                fim = meio - 1
-            else:
-                inicio = meio + 1
-        lista.insert(inicio, item)
-    else:
-        return 'A lista não está ordenada.'
+    for i in range(len(lista)):
+        if lista[i] >= item:
+            lista.insert(i, item)
+            return True
+    # Terminou de percorrer a lista:
+    lista.append(item)
+
+    # if ordem_crescente(lista):
+    #     inicio, fim = 0, len(lista)-1
+    #     while inicio <= fim:
+    #         meio = (inicio + fim) // 2 # Pego o meio da lista.
+    #         if item < lista[meio]:
+    #             fim = meio - 1
+    #         else:
+    #             inicio = meio + 1
+    #     lista.insert(inicio, item)
+    # else:
+    #     return 'A lista não está ordenada.'
