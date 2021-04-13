@@ -29,7 +29,12 @@ Implemente a função 'ordem_crescente' que recebe uma lista e retorna True caso
 a lista esteja ordenada em ordem crescente e False caso contrário
 '''
 def ordem_crescente(lista):
-    return True if lista == sorted(lista) else False
+    for i in range(len(lista) -1):
+        if lista[i+1] < lista[i]:
+            return False
+    return True
+    # return True if lista == sorted(lista) else False
+
 '''
 EXERCÍCIO 2:
 Implemente a função 'busca_linear_alteracao', alterando o algoritmo de
@@ -39,14 +44,11 @@ passado por parâmetro.
 Deve alterar apenas a primeira ocorrência do valor encontrado.
 '''
 def busca_linear_alteracao(lista, chave, novo_valor):
-    if ordem_crescente(lista):
-        for i in range(len(lista)):
-            if lista[i] == chave:
-                lista[i] = novo_valor
-                return True
-        return False
-    else:
-        return 'A lista não está ordenada.'
+    for i in range(len(lista)):
+        if lista[i] == chave:
+            lista[i] = novo_valor
+            return True
+    return False
 '''
 EXERCÍCIO 3:
 Implemente a função 'busca_binaria_alteracao', alterando o algoritmo de
@@ -56,20 +58,18 @@ passado por parâmetro.
 Deve alterar apenas a primeira ocorrência do valor encontrado.
 '''
 def busca_binaria_alteracao(lista, chave, novo_valor):
-    if ordem_crescente(lista):
-        inicio, fim = 0, len(lista)-1
-        while inicio <= fim:
-            meio = (inicio + fim) // 2
-            if lista[meio] == chave:
-                lista[meio] = novo_valor
-                return True
-            elif chave > lista[meio]:
-                inicio = meio + 1
-            else:
-                fim = meio - 1
-        return False
-    else:
-        return 'A lista não está ordenada.'
+    inicio, fim = 0, len(lista)-1
+    while inicio <= fim:
+        meio = (inicio + fim) // 2
+        if lista[meio] == chave:
+            lista[meio] = novo_valor
+            return True
+        elif chave > lista[meio]:
+            inicio = meio + 1
+        else:
+            fim = meio - 1
+    return False
+
 '''
 EXERCÍCIO 4:
 Implemente a função 'insere_ordenado', que recebe uma lista ordenada de forma
