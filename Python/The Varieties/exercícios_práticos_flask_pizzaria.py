@@ -1,19 +1,18 @@
+# Criando primeira APP Flask:
 ''' 
 from flask import Flask 
 app = Flask(__name__)
   
-@app.route("/")
+@app.route('/')
 def hello():
-   return "Ola Mundo!"
+   return 'Ola Mundo!'
 
 if __name__ == '__main__':
    app.run(host = 'localhost', port = 5002, debug=True)
 '''
 
-from flask import Flask        
-app = Flask(__name__)         
-from flask import jsonify
-from flask import request
+from flask import Flask, jsonify, request       
+app = Flask(__name__)     
 
 pizzas = ['atum', 'marguerita', 'camarao']
 
@@ -53,7 +52,7 @@ def add_pizza(nome):
 @app.route('/pizzas/<nome>', methods=['DELETE'])
 def remover_pizza_nome(nome):
     if nome not in pizzas:
-        return  jsonify({'erro': 'pizza não existe'}), 400
+        return jsonify({'erro': 'pizza não existe'}), 400
     pizzas.remove(nome)
     return jsonify(pizzas)
 
@@ -72,8 +71,7 @@ def pedido():
     for nome_pizza in dicionario_retornado.keys():
         if nome_pizza not in pizzas:
             return jsonify({'status': 'pedido contém alguma pizza inválida'}, 400) # {"sorvete": 2, "camarao": 1}
-        else:
-            return jsonify({'status': 'ok'}) # {"atum": 1, "marguerita": 2}
+        return jsonify({'status': 'ok'}) # {"atum": 1, "marguerita": 2}
  
 if __name__ == '__main__':     
-   app.run(host = 'localhost', port = 6002, debug = True)
+   app.run(host = 'localhost', port = 6002, debug=True)
