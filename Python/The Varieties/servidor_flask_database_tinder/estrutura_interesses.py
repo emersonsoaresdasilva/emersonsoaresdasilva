@@ -4,6 +4,9 @@ from sqlalchemy.sql import text
 class NotFoundError(Exception):
     pass
 
+class IncompatibleError(Exception):
+    pass
+
 engine = create_engine('sqlite:///tinder.db')
 
 with engine.connect() as conexao:    
@@ -82,7 +85,12 @@ def adiciona_interesse(id_interessado, id_alvo_de_interesse):
 def remove_interesse(id_interessado, id_alvo_de_interesse):
     with engine.connect() as conexao:
         sql = 'DELETE FROM Interesse WHERE id_interessado = :id_interessado and id_alvo = :id_alvo'
-        conexao.execute(sql, id_interessado = id_interessado, id_alvo = id_alvo)
+        conexao.execute(sql, id_interessado = id_interessado, id_alvo = id_alvo_de_interesse)
       
 def lista_matches(id_pessoa):
-    pass
+    if localiza_pessoa(id_pessoa):
+        lista_dos_matches = []
+        for id_pessoa2 in consulta_interesses(id_pessoa): 
+            if id_pessoa in consulta_interesses(id_pessoa2):
+                lista_dos_matches.append(id_pessoa2)
+        return lista_dos_matches
