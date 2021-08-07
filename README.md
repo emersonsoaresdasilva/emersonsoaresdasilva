@@ -20,30 +20,31 @@
     </a>
 </p>
 <details>
-    <summary><b>Minhas Estátisticas no Github</b></summary>
+   <summary><b>Minhas Estátisticas no Github</b></summary>
     <br/>
     <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=emersonsoaresdasilva&theme=dark&show_icons=true&include_all_commits=true" alt="Estátisticas Gerais" />
-    </p>
-    <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=emersonsoaresdasilva&theme=dark" alt="Techs utilizadas nos projetos" />
+       <img width=450 height=180 
+            src="https://github-readme-stats.vercel.app/api?username=emersonsoaresdasilva&theme=dark&show_icons=true&include_all_commits=true"
+            alt="Emerson Soares github status" />
+       <img width=450 height=180
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=emersonsoaresdasilva&layout=compact&theme=dark&show_icons=true" 
+            alt="Emerson Soares github status" />
     </p>
 </details>
-
 <details>
     <summary><b>Conheça um pouco sobre mim</b></summary>
     <br/>
  
 Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>, onde alcançamos conhecimentos atuais, principalmente no que há de mais importante no âmbito profissional, a comunicação e expressão de ideias, soluções, habilidades e coerência naquilo que apresentamos.
 
-Atuo na gestão de cursos e disciplinas EAD do Centro Universitário Sumaré, empresa onde trabalho atualmente. 🎓
+Atuo na gestão de cursos e disciplinas EAD do <strong>Centro Universitário Sumaré</strong>, empresa onde trabalho atualmente. 🎓
 
 Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball. 🎖
 
 O comprometimento é uma das qualidades no qual me identifico muito. 😇
 # Adquirindo conhecimento:
-* Django Web Framework (Python). 🆕
-* Linguagem de programação Python. 🐍
+* Django Web Framework (Python) 🆕
+* Linguagem de programação Python 🐍
 
 # Cursos realizados:
 - [X] FIT → Programando com a Linguagem Python ⤵
