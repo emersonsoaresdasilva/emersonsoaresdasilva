@@ -1,10 +1,10 @@
-<h1 align="center">Emerson Soares 👋</h1>
+<h1 align="center">Emerson Soares👋🏻</h1>
 
 <p align="center">
     <b>Estudante de Sistemas de Informação | Impacta Tecnologia 🖥</b>
 </p>
 <p align="center">
-    Sou estudante, ainda não sou formado, mas sou fascinado em tecnologia.
+    Sou estudante, ainda não sou formado.
 </p>
 <p align="center">
     <em>Você pode entrar em contato comigo por essas redes:</em>
@@ -36,13 +36,18 @@
  
 Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>, onde alcançamos conhecimentos atuais, principalmente no que há de mais importante no âmbito profissional, a comunicação e expressão de ideias, soluções, habilidades e coerência naquilo que apresentamos.
 
-Atuo na gestão de cursos e disciplinas EAD, auditoria de disciplinas e conteúdos, edição de vídeos e tratamentos de imagens do Centro Universitário Sumaré, empresa onde trabalho atualmente. 
-Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball.
+Atuo na gestão de cursos e disciplinas EAD do Centro Universitário Sumaré, empresa onde trabalho atualmente. 🎓
 
-O comprometimento é uma das qualidades no qual me identifico muito.
+Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball. 🎖
+
+O comprometimento é uma das qualidades no qual me identifico muito. 😇
 # Adquirindo conhecimento:
 * Django Web Framework (Python). 🆕
 * Linguagem de programação Python. 🐍
 
 # Cursos realizados:
-* HTML, Java, Python, Pacote Office, Windows, Redes, Photoshop e Algoritmos. ✔
+- [X] FIT → Programando com a Linguagem Python ⤵
+- [X] FIAP → Nano Course Python
+- [X] FIAP → Nano Course Soluções Tecnológicas Emergentes
+- [X] Cisco → Cybersecurity Essentials 
+- [X] Cisco → Introduction to Cybersecurity ✔
