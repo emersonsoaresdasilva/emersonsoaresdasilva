@@ -1,35 +1,32 @@
-<h1 align="center">Emerson Soares👋🏻</h1>
+<h1 align="center">Emerson Soares 👋🏻</h1>
 
 <p align="center">
-    <b>Estudante de Sistemas de Informação | Impacta Tecnologia 🖥</b>
+    <b>Estudante de Sistemas de Informação | Faculdade Impacta Tecnologia 🖥</b>
 </p>
+<p align="center">Sou estudante, ainda não sou formado.</p>
 <p align="center">
-    Sou estudante, ainda não sou formado.
-</p>
-<p align="center">
-    <em>Você pode entrar em contato comigo por essas redes:</em>
+    Você pode entrar em contato comigo por essas redes:
     <br/><br/>
     <a href="https://github.com/emersonsoaresdasilva" target="_blank">
-      <img src="https://img.shields.io/badge/-Github-000?logo=github&style=for-the-badge&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-Github-000?logo=github&style=for-the-badge&logoColor=white" target="_blank"/>
     </a>
     <a href="https://www.linkedin.com/in/emersonsoaresdasilva" target="_blank">
-      <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white" target="_blank"/>
     </a>
     <a href="mailto:emersonsoares2001@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/-Gmail-c14438?logo=gmail&style=for-the-badge&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-Gmail-c14438?logo=gmail&style=for-the-badge&logoColor=white" target="_blank"/>
+    </a>
+    <a href ="https://www.instagram.com/emer.soares/" target="_blank">
+        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
     </a>
 </p>
 <details>
-   <summary><b>Minhas Estátisticas no Github</b></summary>
+    <summary><b>Minhas Estátisticas no Github</b></summary>
     <br/>
-    <p align="center">
-       <img width=450 height=180 
-            src="https://github-readme-stats.vercel.app/api?username=emersonsoaresdasilva&theme=dark&show_icons=true&include_all_commits=true"
-            alt="Emerson Soares github status" />
-       <img width=450 height=180
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=emersonsoaresdasilva&layout=compact&theme=dark&show_icons=true" 
-            alt="Emerson Soares github status" />
-    </p>
+    <div>
+      <img height="165em" src="https://github-readme-stats.vercel.app/api?username=emersonsoaresdasilva&theme=dark&show_icons=true&include_all_commits=true"/>
+      <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emersonsoaresdasilva&layout=compact&langs_count=4&theme=dark&show_icons=true"/>
+    </div>
 </details>
 <details>
     <summary><b>Conheça um pouco sobre mim</b></summary>
@@ -43,8 +40,8 @@ Além disso, já prestei serviço voluntário pela Federação Paulista de Despo
 
 O comprometimento é uma das qualidades no qual me identifico muito. 😇
 # Adquirindo conhecimento:
-* Django Web Framework (Python) 🆕
-* Linguagem de programação Python 🐍
+<li>Django Web Framework (Python) 🆕</li>
+<li>Linguagem de programação Python 🐍</li>
 
 # Cursos realizados:
 - [X] FIT → Programando com a Linguagem Python ⤵
