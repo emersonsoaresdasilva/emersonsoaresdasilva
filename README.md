@@ -6,9 +6,6 @@
 <p align="center">
     Você pode entrar em contato comigo por essas redes:
     <br/><br/>
-    <a href="https://github.com/emersonsoaresdasilva" target="_blank">
-      <img src="https://img.shields.io/badge/-Github-000?logo=github&style=for-the-badge&logoColor=white" target="_blank"/>
-    </a>
     <a href="https://www.linkedin.com/in/emersonsoaresdasilva" target="_blank">
       <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white" target="_blank"/>
     </a>
@@ -32,11 +29,11 @@
     <summary><b>Conheça um pouco sobre mim</b></summary>
     <br/>
  
-Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>, onde alcançamos conhecimentos atuais, principalmente no que há de mais importante no âmbito profissional, a comunicação e expressão de ideias, soluções, habilidades e coerência naquilo que apresentamos.
+Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>.
 
-Atuo na gestão de cursos e disciplinas EAD do <strong>Centro Universitário Sumaré</strong>, empresa onde trabalho atualmente. 🎓
+Atuo na gestão de cursos e disciplinas EAD da <strong>Sumaré Centro Universitário</strong>, empresa onde trabalho atualmente. 🎓
 
-Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball. 🎖
+Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball. ⚽️
 
 O comprometimento é uma das qualidades no qual me identifico muito. 😇
 # Adquirindo conhecimento:
@@ -48,7 +45,8 @@ O comprometimento é uma das qualidades no qual me identifico muito. 😇
 - [X] FIAP → Nano Course Python
 - [X] FIAP → Nano Course Soluções Tecnológicas Emergentes
 - [X] Cisco → Cybersecurity Essentials 
-- [X] Cisco → Introduction to Cybersecurity ✔
+- [X] Cisco → Introduction to Cybersecurity 
+- [X] ICMC → Python para Processamento de Linguagem Natural ✔
     
 # Minhas habilidades:  
 <p align="left">
