@@ -31,14 +31,15 @@
  
 Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>.
 
-Atuo na gestão de cursos e disciplinas EAD da <strong>Sumaré Centro Universitário</strong>, empresa onde trabalho atualmente. 🎓
+Atuo como Assistente de Hiperautomação na <strong>Prime Control</strong>, empresa onde trabalho atualmente. 🦸🏻‍♂️
 
 Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball. ⚽️
 
 O comprometimento é uma das qualidades no qual me identifico muito. 😇
 # Adquirindo conhecimento:
-<li>Django Web Framework (Python) 🆕</li>
-<li>Linguagem de programação Python 🐍</li>
+<li>Django Web Framework Python. 🚀</li>
+<li>Linguagem de programação Python. 🐍</li>
+<li>Automação Web utilizando Python e Selenium. 👻</li>
 
 # Cursos realizados:
 - [X] FIT → Programando com a Linguagem Python ⤵
