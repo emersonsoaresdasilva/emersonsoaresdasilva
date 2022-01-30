@@ -1,6 +1,6 @@
 <h1 align="center">Emerson Soares 👋🏻</h1>
 
-<p align="center"><b>Estudante de Sistemas de Informação | Faculdade Impacta Tecnologia 🖥</b></p>
+<p align="center"><b>Estudante de Sistemas de Informação - Faculdade Impacta Tecnologia 🖥</b></p>
 <p align="center">Se te oferecerem um lugar em um foguete, não pergunte qual é o teu assento! Simplesmente embarque. 🚀</p>
 
 <p align="center">
@@ -28,26 +28,33 @@
 <details>
     <summary><b>Conheça um pouco sobre mim</b></summary>
     <br/>
- 
-Estou cursando Sistemas de Informação na <strong>Faculdade Impacta Tecnologia</strong>.
 
-Atuo como Assistente de Hiperautomação na <strong>Prime Control</strong>, empresa onde trabalho atualmente. 🦸🏻‍♂️
+Estudante de <strong>Sistemas de Informação</strong> e apaixonado por Tecnologia. 👨🏻‍💻
 
-Além disso, já prestei serviço voluntário pela Federação Paulista de Desportos para Cegos, orientando as equipes e seus jogadores em partidas de Futebol de cinco e Goalball. ⚽️
+Atuo como Assistente de Hiperautomação na Prime Control - Experts em Qualidade Digital. 🦸🏻‍♂️
 
-O comprometimento é uma das qualidades no qual me identifico muito. 😇
+O comprometimento é uma das qualidades no qual me identifico muito. 🙋🏻‍♂️
+
+Sigo estudando e realizando cursos, fazendo pesquisas e buscando cada vez mais novos conhecimentos.
 # Adquirindo conhecimento:
-<li>Django Web Framework Python. 🚀</li>
-<li>Linguagem de programação Python. 🐍</li>
-<li>Automação Web utilizando Python e Selenium. 👻</li>
+<p>🔷 - Jira Software</p>
+<p>🤖 - Robotização de Processos com RPA</p>
+<p>🤵🏻 - Automação Web utilizando Python, Robot Framework e Selenium</p>
 
 # Cursos realizados:
-- [X] FIT → Programando com a Linguagem Python ⤵
+- [X] Cisco → Cybersecurity Essentials ⤵
+- [X] Cisco → Introduction to Cybersecurity 
+- [X] CS Academy → Introdução ao Customer Experience
+- [X] Dell Lead → Testes Automatizados (TDD + BDD)
 - [X] FIAP → Nano Course Python
 - [X] FIAP → Nano Course Soluções Tecnológicas Emergentes
-- [X] Cisco → Cybersecurity Essentials 
-- [X] Cisco → Introduction to Cybersecurity 
-- [X] ICMC → Python para Processamento de Linguagem Natural ✔
+- [X] FIAP → Customer Experience Management
+- [X] FIT → Programando com a Linguagem Python
+- [X] FIT → ETL na Prática - Como Trabalhar com Dados
+- [X] FIT → Jira Software - Gestão Ágil de Projetos e Operações
+- [X] ICMC → Python para Processamento de Linguagem Natural 
+- [X] QAninja → Robot Beginner com Selenium Webdriver
+- [X] QAninja → Testando a API da Marvel em Robot Framework ✔
     
 # Minhas habilidades:  
 <p align="left">
