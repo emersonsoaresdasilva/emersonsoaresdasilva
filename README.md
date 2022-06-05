@@ -1,98 +1,38 @@
-<h1 align="center">Emerson Soares 👋🏻</h1>
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/chrissgon/)](https://www.linkedin.com/in/emersonsoaresdasilva/) [![GitHub Badge](https://img.shields.io/badge/-GitHub-242A2D?style=flat&logo=GitHub&logoColor=white&link=https://github.com/emersonsoaresdasilva/)](https://github.com/emersonsoaresdasilva/) [![Instagram](https://img.shields.io/badge/-Instagram-D42F8A?style=flat&logo=Instagram&logoColor=white&link=https://www.instagram.com/emer.soares/)](https://www.instagram.com/emer.soares/) [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:emersonsoares2001@gmail.com)](mailto:emersonsoares2001@gmail.com)
 
-<p align="center"><b>Estudante de Sistemas de Informação - Faculdade Impacta Tecnologia 🖥</b></p>
-<p align="center">Se te oferecerem um lugar em um foguete, não pergunte qual é o teu assento! Simplesmente embarque. 🚀</p>
+# Emerson Soares
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=2d98ff&width=550&height=40&lines=Python+and+RPA+developer+%F0%9F%A4%96;Graduated+in+Systems+Analysis+and+Development+%F0%9F%8E%93;Studying+Information+Systems+%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB;Hyperautomation+Assistant+at+Prime+Control+%F0%9F%A6%B8%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8F)](https://git.io/typing-svg)
 
-<p align="center">
-    Você pode entrar em contato comigo por essas redes:
-    <br/><br/>
-    <a href="https://www.linkedin.com/in/emersonsoaresdasilva" target="_blank">
-      <img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&style=for-the-badge&logoColor=white" target="_blank"/>
-    </a>
-    <a href="mailto:emersonsoares2001@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/-Gmail-c14438?logo=gmail&style=for-the-badge&logoColor=white" target="_blank"/>
-    </a>
-    <a href ="https://www.instagram.com/emer.soares/" target="_blank">
-        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
-    </a>
+<img align="right" src="https://i.imgur.com/wDJhZvs.png" height="200">
+<img align="right" src="https://i.imgur.com/R1gPAj6.png" height="200">
+
+### About me
+Hi 👋🏻, my name is Emerson, I'm a analysis of systems and Python developer. Passionate about technology, I started in the area at 15 years, where I am currently. ❤️ <br>
+
+Today I seek to improve my knowledge in Automation, Python e in the Atlassian Tools. 🚀 <br>
+
+💻 Hyper Automation Assistant at [Prime Control](https://www.primecontrol.com.br/) <br>
+🎓 Graduated in Systems Analysis and Development at [Impacta Tecnologia](https://www.impacta.edu.br) <br>
+📚 Studying Automation, Atlassian Tools, Grafana, Python and Data Analysis <br>
+👨🏻‍💻 Studying Information Systems at [Impacta Tecnologia](https://www.impacta.edu.br) <br>
 </p>
 
-<details>
-    <summary><b>Minhas Estátisticas no Github</b></summary>
-    <br/>
-    <div>
-      <img height="165em" src="https://github-readme-stats.vercel.app/api?username=emersonsoaresdasilva&theme=dark&show_icons=true&include_all_commits=true"/>
-      <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emersonsoaresdasilva&layout=compact&langs_count=4&theme=dark&show_icons=true"/>
-    </div>
-</details>
-<details>
-    <summary><b>Conheça um pouco sobre mim</b></summary>
-    <br/>
+### My Skills
 
-Estudante de <strong>Sistemas de Informação</strong> e apaixonado por Tecnologia. 👨🏻‍💻
+```python3
+from developer import emersonsoaresdasilva
 
-Atuo como Assistente de Hiperautomação na Prime Control - Experts em Qualidade Digital. 🦸🏻‍♂️
+skills = {
+  "languages": ["HTML5", "CSS3", "JavaScript", "Python"],
+  "databases": ["MySQL", "SQL Server"],
+  "libs":      ["Robot Framework", "Selenium", "PyAutoGUI", "Django", "Flask"],
+  "tools":     ["Git", "Heroku", "Cloud", "Postman API", "Travis CI", "Grafana", "JIRA"]
+}
+```
 
-O comprometimento é uma das qualidades no qual me identifico muito. 🙋🏻‍♂️
+### My Stats
 
-Sigo estudando e realizando cursos, fazendo pesquisas e buscando cada vez mais novos conhecimentos.
-# Adquirindo conhecimento:
-<p>🔷 - Jira Software</p>
-<p>🤖 - Robotização de Processos com RPA</p>
-<p>🤵🏻 - Automação Web utilizando Python, Robot Framework e Selenium</p>
-
-# Cursos realizados:
-- [X] Cisco → Cybersecurity Essentials ⤵
-- [X] Cisco → Introduction to Cybersecurity 
-- [X] CS Academy → Introdução ao Customer Experience
-- [X] Dell Lead → Testes Automatizados (TDD + BDD)
-- [X] FIAP → Nano Course Python
-- [X] FIAP → Nano Course Soluções Tecnológicas Emergentes
-- [X] FIAP → Customer Experience Management
-- [X] FIT → Programando com a Linguagem Python
-- [X] FIT → ETL na Prática - Como Trabalhar com Dados
-- [X] FIT → Jira Software - Gestão Ágil de Projetos e Operações
-- [X] ICMC → Python para Processamento de Linguagem Natural 
-- [X] QAninja → Robot Beginner com Selenium Webdriver
-- [X] QAninja → Testando a API da Marvel em Robot Framework ✔
-    
-# Minhas habilidades:  
-<p align="left">
-    <a href="https://www.w3.org/html/" target="_blank"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-    </a> 
-    <a href="https://www.python.org" target="_blank"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-    </a> 
-    <a href="https://www.djangoproject.com/" target="_blank"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="django" width="40" height="40"/>
-    </a> 
-    <a href="https://flask.palletsprojects.com/" target="_blank"> 
-        <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/>
-    </a> 
-    <a href="https://git-scm.com/" target="_blank"> 
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"> 
-        <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
-    </a>
-    <a href="https://www.mysql.com/" target="_blank"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-    </a>
-    <a href="https://www.microsoft.com/pt-br/windows" target="_blank"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/windows8/windows8-original.svg" alt="Windows" height="40">
-    </a>        
-    <a href="https://heroku.com" target="_blank"> 
-        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/>
-    </a> 
-    <a href="https://getbootstrap.com/" target="_blank">     
-        <img src="https://raw.githubusercontent.com/devicons/devicon/9f4f5cdb393299a81125eb5127929ea7bfe42889/icons/bootstrap/bootstrap-plain.svg" alt="boostrap" height="40">
-    </a>
-    <a href="https://travis-ci.org" target="_blank"> 
-        <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travisci" width="40" height="40"/>
-    </a>
-    <a href="https://postman.com" target="_blank"> 
-        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> 
-    </a>
-</p>
-</details>
+<div>
+    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=emersonsoaresdasilva&theme=dark&show_icons=true&include_all_commits=true"/>
+    <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emersonsoaresdasilva&layout=compact&langs_count=4&theme=dark&show_icons=true"/>
+</div>
