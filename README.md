@@ -9,7 +9,7 @@
 ### About me
 Hi 👋🏻, my name is Emerson, I'm a analysis of systems and Python developer. Passionate about technology, I started in the area at 15 years, where I am currently. ❤️ <br>
 
-Today I seek to improve my knowledge in Automation, Python e in the Atlassian Tools. 🚀 <br>
+Today I seek to improve my knowledge in Automation, Python and in the Atlassian Tools. 🚀 <br>
 
 💻 Hyper Automation Assistant at [Prime Control](https://www.primecontrol.com.br/) <br>
 🎓 Graduated in Systems Analysis and Development at [Impacta Tecnologia](https://www.impacta.edu.br) <br>
